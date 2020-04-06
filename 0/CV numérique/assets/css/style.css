@@ -3,10 +3,10 @@
 background-color:#B8B7E2;
 float:left;
 width:310px;
-height:1000px;
+height:1050px;
 margin:10px;
 }
-/*------Lunes------*/
+/*------------Lunes------------*/
 /*Lune 1*/
 #overMoon1{
     background-color:#B8B7E2;
@@ -78,7 +78,7 @@ margin:10px;
     height:250px;
     border-radius:50%;
 }
-/*------Texte------*/
+/*------------Texte------------*/
 /*Titres*/
 .purpleTitle{
     color:#B8B7E2;
@@ -114,20 +114,42 @@ margin:10px;
     float:left;
     margin-top:40%;
 }
+/*Textes colonnes*/
+/*.listTitle{
+    font-weight: bold;
+}*/
 
-/*------Blocs de couleur------*/
-.blockColumn1, .blockColumn2, .blockColumn3, .blockColumn4{
-    height:250px;
-    margin-right:35px;
-    margin-left:35px;
-    margin-top:15px;
+ul{
+    list-style-type:none;
+    display: contents;
+    font-family:'Gotu',serif;
+    color:#6C64CA;
 }
 
+.textCenter{
+    text-align:center;
+}
+
+.textRight{
+    text-align:right;
+}
+/*------------Blocs de couleur------------*/
 #block1Column1, #block1Column2, #block1Column3, #block1Column4{
-    height:420px;
     margin-right:35px;
     margin-left:35px;
     margin-top:20px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:10px;
+    height:150px;
+    padding-top:250px;
+}
+.blockColumn1, .blockColumn2, .blockColumn3, .blockColumn4{
+    height:260px;
+    margin-right:35px;
+    margin-left:35px;
+    margin-top:15px;
+    padding:10px;
 }
 /*Colonne 1*/
 #block1Column1, .blockColumn1{
