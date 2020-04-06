@@ -6,7 +6,28 @@ width:310px;
 height:1000px;
 margin:10px;
 }
-/*Lunes*/
+/*------Lunes------*/
+/*Lune 1*/
+#overMoon1{
+    background-color:#B8B7E2;
+    z-index:1;
+    position:absolute;
+    border-radius:50%;
+    height:200px;
+    width:200px;
+    margin-top:25px;
+    margin-left:45px;
+}
+
+#moon1{
+    background-color:#FFFEF1;
+    position:absolute;
+    border-radius:50%;
+    height:230px;
+    width:230px;
+    margin:10px;
+}
+/*Lune 2*/
 #moon2{
     background-color:#FFFEF1;
     z-index:1;
@@ -16,7 +37,7 @@ margin:10px;
     height:230px;
     margin:10px;
 }
-
+/*Lune 3*/
 #moon3{
     background-color:#FFFEF1;
     z-index:1;
@@ -27,7 +48,27 @@ margin:10px;
     margin:10px;
     margin-left:125px;
 }
+/*Lune 4*/
+#overMoon4{
+    background-color:#B8B7E2;
+    z-index:1;
+    position:absolute;
+    border-radius:50%;
+    height:200px;
+    width:200px;
+    margin-top:25px;
+    margin-right:45px;
+}
 
+#moon4{
+    background-color:#FFFEF1;
+    position:absolute;
+    border-radius:50%;
+    height:230px;
+    width:230px;
+    margin:10px;
+}
+/*Fond des lunes*/
 .moonBackground{
     background-color:#B8B7E2;
     position:absolute;
@@ -38,6 +79,7 @@ margin:10px;
     height:250px;
     border-radius:50%;
 }
+/*------Blocs de couleur------*/
 /*Colonne 1*/
 #block1Column1{
     background-color:#DFD4F8;
