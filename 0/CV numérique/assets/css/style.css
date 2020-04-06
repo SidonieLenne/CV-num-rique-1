@@ -7,6 +7,26 @@ height:1000px;
 margin:10px;
 }
 /*Lunes*/
+#moon2{
+    background-color:#FFFEF1;
+    z-index:1;
+    border-radius:115px 0 0 115px;
+    position:absolute;
+    width:115px;
+    height:230px;
+    margin:10px;
+}
+
+#moon3{
+    background-color:#FFFEF1;
+    z-index:1;
+    border-radius:0 115px 115px 0;
+    position:absolute;
+    width:115px;
+    height:230px;
+    margin:10px;
+    margin-left:125px;
+}
 
 .moonBackground{
     background-color:#B8B7E2;
