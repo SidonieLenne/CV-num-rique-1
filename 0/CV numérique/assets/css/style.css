@@ -91,7 +91,7 @@ margin-left:10px;
     border-radius:50%;
 }
 /*------------Texte------------*/
-/*Titres*/
+/*----Titres----*/
 .purpleTitle{
     color:#B8B7E2;
 }
@@ -127,7 +127,7 @@ margin-left:10px;
     float:left;
     margin-top:40%;
 }
-/*Textes colonnes*/
+/*----Textes colonnes----*/
 ul{
     list-style-type:none;
     display:inline;
@@ -135,6 +135,10 @@ ul{
     color:#6C64CA;
 }
 
+.bold{
+    font-weight:bold;
+}
+/*Centrage vertical des zones de texte*/
 .negativeMarg{
     margin-top:-30px;
 }
@@ -142,11 +146,7 @@ ul{
 .listCenter{
     margin-top:50px;
 }
-
-.bold{
-    font-weight:bold;
-}
-
+/*Centrage horizontal des zones de texte*/
 .textCenter{
     text-align:center;
 }
@@ -155,7 +155,7 @@ ul{
     text-align:right;
 }
 /*------------Blocs de couleur------------*/
-#block1Column1, #block1Column2, #block1Column3, #block1Column4{
+#firstBlockColumn1, #firstBlockColumn2, #firstBlockColumn3, #firstBlockColumn4{
     margin-right:35px;
     margin-left:35px;
     margin-top:20px;
@@ -174,19 +174,19 @@ ul{
     padding:10px;
 }
 /*Colonne 1*/
-#block1Column1, .blockColumn1{
+#firstBlockColumn1, .blockColumn1{
     background-color:#DFD4F8;
 }
 /*Colonne 2*/
-#block1Column2, .blockColumn2{
+#firstBlockColumn2, .blockColumn2{
     background-color:#D4E7F8;
 }
 /*Colonne 3*/
-#block1Column3, .blockColumn3{
+#firstBlockColumn3, .blockColumn3{
     background-color:#D4F8F1;
 }
 /*Colonne 4*/
-#block1Column4, .blockColumn4{
+#firstBlockColumn4, .blockColumn4{
     background-color:#D4F8DC;
 }
 /*------------Petits points de compétence-------------*/
