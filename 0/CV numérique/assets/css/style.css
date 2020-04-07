@@ -2,13 +2,21 @@
 body{
     background-color:#FFFEF1;
 }
-/*Le truc à centrer*/
-.background{
+
+#background{
+    width:1320px;
+    height:1050px;
+    margin:auto;
+    background-color:#FFFEF1;
+}
+
+.column{
 background-color:#B8B7E2;
-float:left;/*Pour que les 4 colonnes soient sur la même ligne*/
+float:left;
 width:310px;
 height:1050px;
-margin:10px;
+margin-right:10px;
+margin-left:10px;
 }
 /*------------Lunes------------*/
 /*Lune 1*/
@@ -87,6 +95,7 @@ margin:10px;
 .purpleTitle{
     color:#B8B7E2;
 }
+
 #contact, #formations, #professionalXp, #skills {
     font-family:'Alice',serif;
     z-index:2;
@@ -121,10 +130,17 @@ margin:10px;
 /*Textes colonnes*/
 ul{
     list-style-type:none;
-    display:contents;
+    display:inline;
     font-family:'Gotu',serif;
-    font-size:16px;
     color:#6C64CA;
+}
+
+.negativeMarg{
+    margin-top:-30px;
+}
+
+.listCenter{
+    margin-top:50px;
 }
 
 .bold{
@@ -149,6 +165,7 @@ ul{
     height:150px;
     padding-top:250px;
 }
+
 .blockColumn1, .blockColumn2, .blockColumn3, .blockColumn4{
     height:260px;
     margin-right:35px;
