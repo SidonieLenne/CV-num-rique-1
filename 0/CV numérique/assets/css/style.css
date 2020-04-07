@@ -1,7 +1,11 @@
 /*Fond*/
+body{
+    background-color:#FFFEF1;
+}
+/*Le truc à centrer*/
 .background{
 background-color:#B8B7E2;
-float:left;
+float:left;/*Pour que les 4 colonnes soient sur la même ligne*/
 width:310px;
 height:1050px;
 margin:10px;
@@ -115,15 +119,16 @@ margin:10px;
     margin-top:40%;
 }
 /*Textes colonnes*/
-/*.listTitle{
-    font-weight: bold;
-}*/
-
 ul{
     list-style-type:none;
-    display: contents;
+    display:contents;
     font-family:'Gotu',serif;
+    font-size:16px;
     color:#6C64CA;
+}
+
+.bold{
+    font-weight:bold;
 }
 
 .textCenter{
@@ -165,5 +170,23 @@ ul{
 }
 /*Colonne 4*/
 #block1Column4, .blockColumn4{
+    background-color:#D4F8DC;
+}
+/*------------Petits points de compétence-------------*/
+.fullCircle, .emptyCircle{
+    margin:1px;
+    float:right;
+    z-index:3;
+    width:11px;
+    height:11px;
+    border-radius:50%;
+    border:1px solid #B8B7E2;
+}
+
+.fullCircle{
+    background-color:#FFFEF1;
+}
+
+.emptyCircle{
     background-color:#D4F8DC;
 }
