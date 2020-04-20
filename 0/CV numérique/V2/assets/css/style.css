@@ -1,0 +1,49 @@
+/*Fond*/
+body{
+    background-color:#FFFEF1;
+}
+
+.row{
+    background-color:#B8B7E2;
+}
+/*----Texte----*/
+ul{
+    list-style-type:none;
+    display:inline;
+    font-family:'Gotu',serif;
+    color:#6C64CA;
+}
+/*Ligne 1*/
+.color-1{
+    background-color:#DFD4F8;
+}
+/*Ligne 2*/
+.color-2{
+    background-color:#D4E7F8;
+}
+/*Ligne 3*/
+.color-3{
+    background-color:#D4F8F1;
+}
+/*Ligne 4*/
+.color-4{
+    background-color:#D4F8DC;
+}
+/*------------Petits points de compétence-------------*/
+.fullCircle, .emptyCircle{
+    margin:1px;
+    float:right;
+    z-index:3;
+    width:11px;
+    height:11px;
+    border-radius:50%;
+    border:1px solid #B8B7E2;
+}
+
+.fullCircle{
+    background-color:#FFFEF1;
+}
+
+.emptyCircle{
+    background-color:#D4F8DC;
+}
